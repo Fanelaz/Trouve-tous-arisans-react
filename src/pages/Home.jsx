@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <div>
             <section className="container card-tuto" >
-                <h1>Comment trouver mon artisan ?</h1>
+                <h1>Comment trouver mon artisan</h1>
 
                 <div class="row" id="tuto">
                     <div class="col text-center" id="tutod">
