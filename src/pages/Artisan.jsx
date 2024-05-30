@@ -33,7 +33,7 @@ const Artisan = () => {
 
         emailjs.send(serviceID, templateID, content)
         .then((response)=>{
-            alert('Email envoyé avec succès');
+            alert('Email envoyé avec succès, \nvous receverez vôtre réponse sous 48 heures !');
             setName('');
             setSubject('');
             setMessage('');
